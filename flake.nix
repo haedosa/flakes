@@ -15,6 +15,17 @@
     };
   };
 
-  outputs = inputs: {};
+  outputs = inputs: {
+
+    templates = {
+
+      haskell = {
+        path = ./haskell;
+        description = "Haskell Project Template";
+      };
+
+    };
+
+  };
 
 }

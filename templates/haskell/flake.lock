@@ -25,11 +25,11 @@
         "nixpkgs-stable": "nixpkgs-stable"
       },
       "locked": {
-        "lastModified": 1664596031,
-        "narHash": "sha256-YM1xLcc8TaQ2WmKVwY20/GDhfXxcVwF1DVglYPvidDw=",
+        "lastModified": 1664596764,
+        "narHash": "sha256-uaNDW625gvkI4vSUuhGoIERTDHSYMEdtcwjq+DrNFhA=",
         "owner": "haedosa",
         "repo": "flakes",
-        "rev": "236377a8c633aa98e9447c8003c4f395bd62c946",
+        "rev": "63cb2861a73ca7fa088421d77ec79f3c480a105c",
         "type": "github"
       },
       "original": {

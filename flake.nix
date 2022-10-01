@@ -14,7 +14,6 @@
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
 
-    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = inputs: {

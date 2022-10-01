@@ -1,35 +1,18 @@
 {
   "nodes": {
-    "flake-utils": {
-      "locked": {
-        "lastModified": 1659877975,
-        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "ref": "master",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
     "haedosa": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "home-manager": "home-manager",
         "home-manager-stable": "home-manager-stable",
         "nixpkgs": "nixpkgs",
         "nixpkgs-stable": "nixpkgs-stable"
       },
       "locked": {
-        "lastModified": 1664596031,
-        "narHash": "sha256-YM1xLcc8TaQ2WmKVwY20/GDhfXxcVwF1DVglYPvidDw=",
+        "lastModified": 1664597282,
+        "narHash": "sha256-QFbtm6M41FZe/zpVwHuVL57kSFzQ7ys8vwT6T/JudI4=",
         "owner": "haedosa",
         "repo": "flakes",
-        "rev": "236377a8c633aa98e9447c8003c4f395bd62c946",
+        "rev": "b57e6132a25e394f21f23dd4eeadc5f9a0696d79",
         "type": "github"
       },
       "original": {

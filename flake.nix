@@ -20,7 +20,7 @@
     templates = {
 
       haskell = {
-        path = ./haskell;
+        path = ./templates/haskell;
         description = "Haskell Project Template";
       };
 

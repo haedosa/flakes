@@ -1,7 +1,7 @@
 
-module Main where
+module Haedosa.App where
 
-import Haedosa (who)
+import Haedosa.Lib (who)
 
 main :: IO ()
 main = print $ "Hello " ++ who ++ "!"

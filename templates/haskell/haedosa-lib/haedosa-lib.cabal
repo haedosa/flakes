@@ -5,7 +5,8 @@ version:               0.1.0.0
 common common
   build-depends:
       base
-    , tasty-discover
+  build-tools:
+    tasty-discover
   default-language:    Haskell2010
   ghc-options:
     -O2 -j
@@ -79,4 +80,4 @@ test-suite test-haedosa-lib
     , tasty-quickcheck
     , tasty-expected-failure
   other-modules:
-    Test
+    Test.Trivial

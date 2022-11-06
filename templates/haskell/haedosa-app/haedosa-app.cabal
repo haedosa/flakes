@@ -6,7 +6,8 @@ common common
   build-depends:
       base
     , haedosa-lib
-    , tasty-discover
+  build-tools:
+    tasty-discover
   default-language:    Haskell2010
   ghc-options:
     -O2 -j
@@ -70,6 +71,8 @@ executable haedosa-app
   main-is:             haedosa.hs
   build-depends:
     haedosa-app
+  ghc-options:
+    -Wno-missing-home-modules
 
 test-suite test-haedosa-app
   import:              common
@@ -87,4 +90,4 @@ test-suite test-haedosa-app
     , tasty-quickcheck
     , tasty-expected-failure
   other-modules:
-    Test
+    Test.Trivial

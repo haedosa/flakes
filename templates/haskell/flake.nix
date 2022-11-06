@@ -23,13 +23,15 @@
       };
 
       packages.${system} = {
-        default = pkgs.haskellPackages.haedosa;
+        default = pkgs.haskellPackages.haedosa-app;
+        haedosa-lib = pkgs.haskellPackages.haedosa-lib;
+        haedosa-app = pkgs.haskellPackages.haedosa-app;
       };
 
       apps.${system} = {
         default = {
           type = "app";
-          program = "${pkgs.haskellPackages.haedosa}/bin/haedosa";
+          program = "${pkgs.haskellPackages.haedosa-app}/bin/haedosa-app";
         };
       };
 

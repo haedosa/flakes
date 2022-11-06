@@ -1,6 +1,5 @@
 
-module Haedosa where
-
+module Haedosa.Lib where
 
 who :: String
 who = "Haedosa"

@@ -13,14 +13,11 @@
 
   ghcid-exe = mk-ghcid-command { name = "ghcid-exe"; target = "exe:haedosa"; };
 
-in mkShell {
+in haskellPackages.shellFor {
+  withHoogle = true;
+  packages = p: with p; [ haedosa-lib haedosa-app ];
   buildInputs =
     (with haskellPackages;
-
-    # build dependencies
-    haedosa.env.buildInputs ++
-    haedosa.env.nativeBuildInputs ++
-
     # haskell tools
     [ haskell-language-server
       ghcid

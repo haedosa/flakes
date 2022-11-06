@@ -2,7 +2,7 @@
 
   inputs = {
 
-    haedosa.url = "github:haedosa/flakes";
+    haedosa.url = "github:haedosa/flakes/22.05";
     nixpkgs.follows = "haedosa/nixpkgs";
 
   };

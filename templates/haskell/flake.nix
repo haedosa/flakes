@@ -2,8 +2,8 @@
 
   inputs = {
 
-    haedosa.url = "github:haedosa/flakes/22.05";
-    nixpkgs.follows = "haedosa/nixpkgs";
+    haedosa.url = "github:haedosa/flakes";
+    nixpkgs.follows = "haedosa/nixpkgs-23-11";
 
   };
 
@@ -11,9 +11,9 @@
     let
       system = "x86_64-linux";
       pkgs = import inputs.nixpkgs {
-               inherit system;
-               overlays = [ inputs.self.overlays.default ];
-             };
+        inherit system;
+        overlays = [ inputs.self.overlays.default ];
+      };
     in {
 
       inherit pkgs;

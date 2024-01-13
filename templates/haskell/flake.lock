@@ -3,21 +3,28 @@
     "haedosa": {
       "inputs": {
         "home-manager": "home-manager",
+        "home-manager-22-11": "home-manager-22-11",
+        "home-manager-23-05": "home-manager-23-05",
+        "home-manager-23-11": "home-manager-23-11",
+        "home-manager-stable": "home-manager-stable",
         "home-manager-unstable": "home-manager-unstable",
         "nixpkgs": "nixpkgs",
+        "nixpkgs-22-11": "nixpkgs-22-11",
+        "nixpkgs-23-05": "nixpkgs-23-05",
+        "nixpkgs-23-11": "nixpkgs-23-11",
+        "nixpkgs-stable": "nixpkgs-stable",
         "nixpkgs-unstable": "nixpkgs-unstable"
       },
       "locked": {
-        "lastModified": 1666956655,
-        "narHash": "sha256-b+Rn5qRZ70YMrAhNis1aHYOp56Om7O5ALm6GDX3BTKA=",
+        "lastModified": 1705149469,
+        "narHash": "sha256-BlXIGFQJmYuoCtbXy7Z6cKrseOrCy3biyixp2gt7l/Q=",
         "owner": "haedosa",
         "repo": "flakes",
-        "rev": "98f6b211cd790af17e66c2f73ef77f6850212a1e",
+        "rev": "d269572457ca1acd32c5022a5f4b78032902b3c9",
         "type": "github"
       },
       "original": {
         "owner": "haedosa",
-        "ref": "22.05",
         "repo": "flakes",
         "type": "github"
       }
@@ -26,20 +33,109 @@
       "inputs": {
         "nixpkgs": [
           "haedosa",
-          "nixpkgs"
+          "nixpkgs-23-05"
         ]
       },
       "locked": {
-        "lastModified": 1667677389,
-        "narHash": "sha256-y9Zdq8vtsn0T5TO1iTvWA7JndYIAGjzCjbYVi/hOSmA=",
+        "lastModified": 1702195668,
+        "narHash": "sha256-Lxmjez0nfNBptdqV5GsXKm7Bb7swjGsrxiLxWJu0tL8=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "87d55517f6f36aa1afbd7a4a064869d5a1d405b8",
+        "rev": "33110fb3c7fe6a94b98b641866a5eddb64b7c23f",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
-        "ref": "release-22.05",
+        "ref": "release-23.05",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "home-manager-22-11": {
+      "inputs": {
+        "nixpkgs": [
+          "haedosa",
+          "nixpkgs-22-11"
+        ],
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1685325875,
+        "narHash": "sha256-tevlLIMPeVNNYPd9UgjHApAUoFAnw9iohqUyj+LPp88=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "b372d7f8d5518aaba8a4058a453957460481afbc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-22.11",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "home-manager-23-05": {
+      "inputs": {
+        "nixpkgs": [
+          "haedosa",
+          "nixpkgs-23-05"
+        ]
+      },
+      "locked": {
+        "lastModified": 1702195668,
+        "narHash": "sha256-Lxmjez0nfNBptdqV5GsXKm7Bb7swjGsrxiLxWJu0tL8=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "33110fb3c7fe6a94b98b641866a5eddb64b7c23f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-23.05",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "home-manager-23-11": {
+      "inputs": {
+        "nixpkgs": [
+          "haedosa",
+          "nixpkgs-23-11"
+        ]
+      },
+      "locked": {
+        "lastModified": 1704980875,
+        "narHash": "sha256-IPZmMjk5f4TBbEpzUFBc3OC1W6OwDNEXk2w/0uVXX1o=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "5f0ab0eedc6ede69beb8f45561ffefa54edc6e65",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-23.11",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "home-manager-stable": {
+      "inputs": {
+        "nixpkgs": [
+          "haedosa",
+          "nixpkgs-23-05"
+        ]
+      },
+      "locked": {
+        "lastModified": 1702195668,
+        "narHash": "sha256-Lxmjez0nfNBptdqV5GsXKm7Bb7swjGsrxiLxWJu0tL8=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "33110fb3c7fe6a94b98b641866a5eddb64b7c23f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-23.05",
         "repo": "home-manager",
         "type": "github"
       }
@@ -49,15 +145,14 @@
         "nixpkgs": [
           "haedosa",
           "nixpkgs-unstable"
-        ],
-        "utils": "utils"
+        ]
       },
       "locked": {
-        "lastModified": 1667708081,
-        "narHash": "sha256-FChEy05x4ed/pttjfTeKxjPCnHknMYrUtDyBiYbreT4=",
+        "lastModified": 1705104164,
+        "narHash": "sha256-pllCu3Hcm1wP/B0SUxgUXvHeEd4w8s2aVrEQRdIL1yo=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "1ef0da321217c6c19b7a30509631c080a19321e5",
+        "rev": "0912d26b30332ae6a90e1b321ff88e80492127dd",
         "type": "github"
       },
       "original": {
@@ -68,27 +163,91 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1667653703,
-        "narHash": "sha256-Xow4vx52/g5zkhlgZnMEm/TEXsj+13jTPCc2jIhW1xU=",
+        "lastModified": 1704290814,
+        "narHash": "sha256-LWvKHp7kGxk/GEtlrGYV68qIvPHkU9iToomNFGagixU=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "f09ad462c5a121d0239fde645aacb2221553a217",
+        "rev": "70bdadeb94ffc8806c0570eb5c2695ad29f0e421",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixos-22.05",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-22-11": {
+      "locked": {
+        "lastModified": 1688392541,
+        "narHash": "sha256-lHrKvEkCPTUO+7tPfjIcb7Trk6k31rz18vkyqmkeJfY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ea4c80b39be4c09702b0cb3b42eab59e2ba4f24b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-23-05": {
+      "locked": {
+        "lastModified": 1704290814,
+        "narHash": "sha256-LWvKHp7kGxk/GEtlrGYV68qIvPHkU9iToomNFGagixU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "70bdadeb94ffc8806c0570eb5c2695ad29f0e421",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-23-11": {
+      "locked": {
+        "lastModified": 1704874635,
+        "narHash": "sha256-YWuCrtsty5vVZvu+7BchAxmcYzTMfolSPP5io8+WYCg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "3dc440faeee9e889fe2d1b4d25ad0f430d449356",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-23.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-stable": {
+      "locked": {
+        "lastModified": 1704290814,
+        "narHash": "sha256-LWvKHp7kGxk/GEtlrGYV68qIvPHkU9iToomNFGagixU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "70bdadeb94ffc8806c0570eb5c2695ad29f0e421",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-23.05",
         "repo": "nixpkgs",
         "type": "github"
       }
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1667629849,
-        "narHash": "sha256-P+v+nDOFWicM4wziFK9S/ajF2lc0N2Rg9p6Y35uMoZI=",
+        "lastModified": 1704722960,
+        "narHash": "sha256-mKGJ3sPsT6//s+Knglai5YflJUF2DGj7Ai6Ynopz0kI=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "3bacde6273b09a21a8ccfba15586fb165078fb62",
+        "rev": "317484b1ead87b9c1b8ac5261a8d2dd748a0492d",
         "type": "github"
       },
       "original": {
@@ -103,7 +262,7 @@
         "haedosa": "haedosa",
         "nixpkgs": [
           "haedosa",
-          "nixpkgs"
+          "nixpkgs-23-11"
         ]
       }
     },

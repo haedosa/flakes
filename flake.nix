@@ -32,6 +32,12 @@
       inputs.nixpkgs.follows = "nixpkgs-22-11";
     };
 
+    nixpkgs-23-11.url = "github:nixos/nixpkgs/nixos-23.11";
+    home-manager-23-11 = {
+      url = "github:nix-community/home-manager/release-23.11";
+      inputs.nixpkgs.follows = "nixpkgs-23-11";
+    };
+
   };
 
   outputs = inputs: {

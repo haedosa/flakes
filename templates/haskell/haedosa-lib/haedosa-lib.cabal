@@ -24,27 +24,45 @@ common common
     -Wno-missing-deriving-strategies
     -Wno-missing-safe-haskell-mode
   default-extensions:
-      BangPatterns
+      AllowAmbiguousTypes
+    , BangPatterns
+    , BlockArguments
     , ConstraintKinds
     , DataKinds
+    , DefaultSignatures
     , DeriveAnyClass
+    , DeriveDataTypeable
     , DeriveFoldable
     , DeriveFunctor
     , DeriveGeneric
     , DeriveTraversable
     , DerivingStrategies
     , DerivingVia
+    , DisambiguateRecordFields
+    , DuplicateRecordFields
     , EmptyCase
+    , EmptyDataDeriving
     , ExistentialQuantification
     , FlexibleContexts
     , FlexibleInstances
+    , FunctionalDependencies
+    , GADTs
     , GeneralizedNewtypeDeriving
     , ImportQualifiedPost
-    , KindSignatures
+    , InstanceSigs
     , KindSignatures
     , LambdaCase
     , MultiParamTypeClasses
+    , MultiWayIf
+    , NamedFieldPuns
+    , NoStarIsType
+    , NumericUnderscores
+    , OverloadedLabels
+    , OverloadedRecordDot
     , OverloadedStrings
+    , PartialTypeSignatures
+    , PatternSynonyms
+    , PolyKinds
     , QuasiQuotes
     , RankNTypes
     , RecordWildCards
@@ -54,9 +72,13 @@ common common
     , TemplateHaskell
     , TupleSections
     , TypeApplications
+    , TypeFamilies
+    , TypeFamilyDependencies
     , TypeOperators
     , TypeSynonymInstances
+    , UndecidableInstances
     , ViewPatterns
+
 
 library
   import:              common

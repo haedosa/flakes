@@ -23,6 +23,11 @@
 
     templates = {
 
+      python-jupyter = {
+        path = ./templates/python-jupyter;
+        description = "Python Jupyter Template";
+      };
+
       haskell = {
         path = ./templates/haskell;
         description = "Haskell Project Template";
